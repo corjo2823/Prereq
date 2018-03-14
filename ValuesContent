@@ -1,0 +1,43 @@
+COLORS
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f17a0a</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f17a0a</color>
+</resources>
+
+DIMENS 1
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f17a0a</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f17a0a</color>
+</resources>
+
+DIMENS 2
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>
+
+STRINGS
+<resources>
+    <string name="app_name"></string>
+</resources>
+
+
+STYLES
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
+
