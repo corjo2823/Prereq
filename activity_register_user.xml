@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.maksymalekseyev.msis_5133.RegisterUser"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="0.07">
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="59dp"
+            app:srcCompat="@drawable/osu"
+            android:id="@+id/imageView8"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_weight="0.20"></LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:background="@drawable/textfields"
+            android:id="@+id/fName"
+            android:textSize="24sp"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:textColor="?android:attr/colorFocusedHighlight" />
+
+        <TextView
+            android:text="FIRST NAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            tools:textColor="?android:attr/colorActivatedHighlight"
+            android:textColor="?android:attr/colorFocusedHighlight"
+            tools:textStyle="bold"
+            android:textStyle="normal|bold" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:background="@drawable/textfields"
+            android:layout_marginTop="15dp"
+            android:id="@+id/lName"
+            android:textSize="24sp"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:textColor="?android:attr/colorFocusedHighlight" />
+
+        <TextView
+            android:text="LAST NAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            tools:textColor="?android:attr/colorActivatedHighlight"
+            android:textColor="?android:attr/colorFocusedHighlight"
+            tools:textStyle="bold"
+            android:textStyle="normal|bold" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:background="@drawable/textfields"
+            android:id="@+id/uName"
+            android:textSize="24sp"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:textColor="?android:attr/colorFocusedHighlight" />
+
+        <TextView
+            android:text="USERNAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            tools:textColor="?android:attr/colorActivatedHighlight"
+            android:textColor="?android:attr/colorFocusedHighlight"
+            tools:textStyle="bold"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textfields"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:id="@+id/uPass"
+            android:textSize="24sp"
+            android:textColor="?android:attr/colorFocusedHighlight" />
+
+        <TextView
+            android:text="PASSWORD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="?android:attr/colorFocusedHighlight"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textfields"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:id="@+id/uPassRepeat"
+            android:textSize="24sp"
+            android:textColor="?android:attr/colorFocusedHighlight" />
+
+        <TextView
+            android:text="REPEAT PASSWORD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="?android:attr/colorFocusedHighlight"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="0.14"></LinearLayout>
+
+
+        <Button
+            android:text="SIGNUP"
+            android:layout_width="150dp"
+            android:layout_height="5dp"
+            android:id="@+id/Register"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="@android:color/background_light"
+            android:background="@drawable/buttons"
+            android:onClick="onSignUpClick"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.67"></LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
